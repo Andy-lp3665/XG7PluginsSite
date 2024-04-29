@@ -16,7 +16,6 @@ body {
 form {
   width: 400px;
   height: 400px;
-  background-color: white;
   border-radius: 50px;
   display: flex;
   flex-direction: column;
@@ -29,16 +28,38 @@ form img {
 }
 input {
   border-radius: 10px;
+  border: none;
   padding: 5px;
-  border-color: blue;
-  background-color: rgb(205, 222, 241);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(228, 236, 245);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #enviar {
-  background-color: rgb(19, 224, 11);
+  background-color: rgb(35, 144, 223);
   color: black;
   border-color: black;
   border-radius: 20px;
   padding: 5px;
   width: 180px;
+}
+h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+#b1 {
+  border-radius: 20px;
+  background-color: red;
+  border: none;
+  padding: 5px;
+  width: 160px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  width: 60%;
+  height: auto;
+  background-color: white;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
 }
